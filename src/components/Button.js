@@ -2,6 +2,7 @@ import React from 'react'
 
 export const Button = props =>
   <button
+    border='1px solid'
     borderColor='green'
     bg='transparent'
     color='white'
