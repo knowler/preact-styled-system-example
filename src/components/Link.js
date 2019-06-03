@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import { themeGet } from 'styled-system'
+import { themeGet } from '@styled-system/theme-get'
 
 export const Link = styled.a(props => {
   const { green, mirage } = themeGet('colors')(props)
